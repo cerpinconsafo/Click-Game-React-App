@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Click-Game-React-App/static/css/main.f6eed54b.chunk.css",
+    "main.js": "/Click-Game-React-App/static/js/main.2b861bed.chunk.js",
+    "main.js.map": "/Click-Game-React-App/static/js/main.2b861bed.chunk.js.map",
+    "runtime-main.js": "/Click-Game-React-App/static/js/runtime-main.1e3796e0.js",
+    "runtime-main.js.map": "/Click-Game-React-App/static/js/runtime-main.1e3796e0.js.map",
+    "static/js/2.a1228723.chunk.js": "/Click-Game-React-App/static/js/2.a1228723.chunk.js",
+    "static/js/2.a1228723.chunk.js.map": "/Click-Game-React-App/static/js/2.a1228723.chunk.js.map",
+    "index.html": "/Click-Game-React-App/index.html",
+    "precache-manifest.068ffc3211c198cad959ecb0da7becdb.js": "/Click-Game-React-App/precache-manifest.068ffc3211c198cad959ecb0da7becdb.js",
+    "service-worker.js": "/Click-Game-React-App/service-worker.js",
+    "static/css/main.f6eed54b.chunk.css.map": "/Click-Game-React-App/static/css/main.f6eed54b.chunk.css.map",
+    "static/js/2.a1228723.chunk.js.LICENSE.txt": "/Click-Game-React-App/static/js/2.a1228723.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Click-Game-React-App/static/media/athf_bg.eee679af.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e3796e0.js",
+    "static/js/2.a1228723.chunk.js",
+    "static/css/main.f6eed54b.chunk.css",
+    "static/js/main.2b861bed.chunk.js"
+  ]
+}
