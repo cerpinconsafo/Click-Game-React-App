@@ -1,68 +1,73 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React-Clicky Game
+#### unit 19 - React - Patrick Skolsky
+----
 
-## Available Scripts
+## Table of Contents
+* [Deployed Page](#deployed-page)
+* [Updates](#updates)
+* [Assigment Details](#assignment-details)
+* [Problems](#problems)
 
-In the project directory, you can run:
 
-### `npm start`
+----
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Deployed Page
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+#### [200 IQ Memory Game](https://cerpinconsafo.github.io/Click-Game-React-App/)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).*
 
-### `npm run build`
+----
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Updates
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Last Update:  02/10/20
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+What was Updated: Finalized most of the styling and card effects.  The game still ENDS on the first click after every page reload, but works outside of that.  I think the shuffle mechanic can be fixed to randomize better.
 
-### `npm run eject`
+----
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Assignment Details
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Overview
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+For this assignment, you'll create a memory game with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Submission on BCS
+### Instructions
 
-## Learn More
+1. Check out the [example solution](https://clicky-game.netlify.com/) and study the app's basic functionality.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Create a new React application using [Create React App](https://github.com/facebookincubator/create-react-app).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. The application should render different images (of your choice) to the screen. Each image should listen for click events.
 
-### Code Splitting
+4. The application should keep track of the user's score. The user's score should be incremented when clicking an image for the first time. The user's score should be reset to 0 if they click the same image more than once.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+5. Every time an image is clicked, the images rendered to the page should shuffle themselves in a random order.
 
-### Analyzing the Bundle Size
+6. Once the user's score is reset after an incorrect guess, the game should restart.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+7. When complete, the application should be deployed to Github Pages. See the README generated with Create React App for instructions on deploying the application to Github Pages.
 
-### Making a Progressive Web App
+- - -
+#### Hints
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+* Begin by building a non-functioning static version for your Clicky Game. Then work on making the game interacti 
+   
+----
 
-### Advanced Configuration
+## Problems
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+The major problem I had with this assignment was getting the cards to appear properly.  Currently, the only MAJOR issue with this game is that it automatically gives the user a GAME OVER on the very first Click of any card.  This occurs one time, on the first click, whenever there is a page reload. The only other issue I had, was I botched my first deploy attempt from [this repo](https://github.com/cerpinconsafo/Clicky-App/settings). I selected an incorrect option, and was unsure how to roll back the changes, so I made this repo (that is sadly lacking all of those commits).
 
-### Deployment
+----
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+
+
