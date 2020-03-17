@@ -30,7 +30,7 @@ Players will:
 - Lose when a character previously chosen is clicked
 
 #### GIF HERE
-- ![GIF](assets/images/giphy_click.gif)
+- ![GIF](memory_gif.gif)
   
 
 ----
